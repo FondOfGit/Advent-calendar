@@ -27,6 +27,7 @@
 
   --radius: 6px;
   --swag-inset: 2.6rem;   /* keeps the swag's end bows clear of the frame corners */
+  --swag-ratio: 5.333;    /* swag width ÷ height: 800×150 on phones, 1200×150 from 600px */
   --ease-door: cubic-bezier(.3, .7, .25, 1);
 }
 
@@ -176,8 +177,8 @@ img { max-width: 100%; }
 
 .masthead {
   text-align: center;
-  /* clear the swag: its height is 1/8 of its width */
-  padding: calc((min(100vw, 1120px) - 2 * var(--swag-inset)) / 8 - .25rem) .5rem 0;
+  /* clear the swag: its height is its width ÷ --swag-ratio */
+  padding: calc((min(100vw, 1120px) - 2 * var(--swag-inset)) / var(--swag-ratio) - .25rem) .5rem 0;
 }
 
 /* ---------- Holly swag ---------- */
@@ -193,6 +194,8 @@ img { max-width: 100%; }
   pointer-events: none;
   filter: drop-shadow(0 4px 4px rgba(0, 0, 0, .45));
 }
+.swag--wide { display: none; }
+
 .swag-loop {
   transform-box: fill-box;
   transform-origin: 50% 0;
@@ -352,7 +355,9 @@ h1 span {
   .page { padding: 2.75rem 2rem 3.5rem; }
   .doors { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.1rem; }
   .frame-corner { width: 4.5rem; height: 4.5rem; }
-  :root { --swag-inset: 4rem; }
+  :root { --swag-inset: 4rem; --swag-ratio: 8; }
+  .swag--narrow { display: none; }
+  .swag--wide { display: block; }
 }
 
 @media (min-width: 960px) {
