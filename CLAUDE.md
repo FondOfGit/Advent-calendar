@@ -6,7 +6,10 @@ A static Advent calendar of Christmas trivia for adults, styled as a Victorian C
 
 - Plain HTML, CSS and JavaScript. There is no framework, no build step, no package.json and no backend.
 - Fonts come from Google Fonts: Playfair Display for display text and numerals, EB Garamond for body text. Both have Georgia or Garamond fallbacks.
-- All ornament is inline SVG. A sprite of `<symbol>`s at the top of `index.html` (`corner`, `divider`, `holly`, `star`, `keyhole`) is reused with `<use href="#...">`.
+- All ornament is inline SVG. A sprite of `<symbol>`s at the top of `index.html` (`corner`, `divider`, `star`, `keyhole`) is reused with `<use href="#...">`.
+- The wallpaper is William Morris's "Willow Bough" (1887, The Met, public domain), cut to one seamless pattern repeat and tinted deep green: `images/wallpaper-willow-bough.jpg`, tiled on `<body>` at 400px wide. A fixed `body::before` layer adds lamplight from above and a vignette.
+- The holly swag across the top is an inline SVG in `index.html` (three loops of holly with ribbon bows). Each loop "breathes" and each bow sways via CSS animation. `--swag-inset` keeps its ends clear of the frame corners, and `.masthead` padding is derived from it.
+- `.hearth` is a fixed firelight glow at the bottom of the viewport, flickering via two out-of-phase CSS animations.
 - Snow is drawn on a single `<canvas>`. It is off by default when the visitor has `prefers-reduced-motion` set, can be toggled with the "Snow" button, and pauses while the tab is hidden.
 - The question dialog uses the native `<dialog>` element, which provides focus trapping and Escape-to-close.
 - The CSS is mobile-first: 3 columns by default, 4 from 600px and 6 from 960px.
@@ -105,5 +108,5 @@ All paths in the site are relative, so it works under the `/<repo>/` subpath wit
 
 - Keep it dependency-free. Do not add a bundler, framework or npm packages.
 - All copy for the questions lives in `questions.json`. UI strings live in `index.html` and `js/app.js`.
-- Respect `prefers-reduced-motion`; the door swing, glow and snow are all reduced or disabled under it.
+- Respect `prefers-reduced-motion`; the door swing, today's glow, swag, firelight and snow are all stopped or disabled under it.
 - Insert untrusted text with `textContent`. `questions.json` is never injected as HTML.

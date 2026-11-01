@@ -26,6 +26,7 @@
   --display: "Playfair Display", Didot, "Bodoni 72", Georgia, serif;
 
   --radius: 6px;
+  --swag-inset: 2.6rem;   /* keeps the swag's end bows clear of the frame corners */
   --ease-door: cubic-bezier(.3, .7, .25, 1);
 }
 
@@ -45,6 +46,15 @@ body {
   background-color: var(--forest);
 }
 
+/* Wallpaper: William Morris, "Willow Bough" (1887), tinted to deep green.
+   It sits on <body> so it scrolls like a real wall; the lamplight and
+   vignette sit on a fixed layer above it. */
+body {
+  background-image: url("../images/wallpaper-willow-bough.jpg");
+  background-size: 400px auto;
+  background-repeat: repeat;
+}
+
 body::before {
   content: "";
   position: fixed;
@@ -52,10 +62,50 @@ body::before {
   z-index: -1;
   pointer-events: none;
   background-image:
-    radial-gradient(ellipse 120% 60% at 50% 0%, rgba(201, 162, 74, .14), transparent 60%),
-    radial-gradient(ellipse 120% 70% at 50% 100%, rgba(122, 18, 34, .38), transparent 70%),
-    repeating-linear-gradient(45deg, rgba(255, 255, 255, .018) 0 2px, transparent 2px 16px),
-    repeating-linear-gradient(-45deg, rgba(0, 0, 0, .1) 0 2px, transparent 2px 16px);
+    radial-gradient(ellipse 90% 55% at 50% 0%, rgba(233, 207, 134, .16), transparent 70%),
+    radial-gradient(ellipse 140% 110% at 50% 45%, transparent 45%, rgba(4, 10, 6, .72) 100%);
+}
+
+/* ---------- Firelight from an unseen hearth ---------- */
+
+.hearth {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 45vh;
+  z-index: 0;
+  pointer-events: none;
+}
+.hearth::before,
+.hearth::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform-origin: 50% 100%;
+}
+.hearth::before {
+  background: radial-gradient(ellipse 75% 100% at 50% 100%, rgba(255, 138, 48, .24), rgba(196, 72, 24, .1) 45%, transparent 72%);
+  animation: flicker-a 3.7s ease-in-out infinite;
+}
+.hearth::after {
+  background: radial-gradient(ellipse 45% 70% at 46% 100%, rgba(255, 186, 84, .16), transparent 70%);
+  animation: flicker-b 2.3s ease-in-out infinite;
+}
+
+@keyframes flicker-a {
+  0%, 100% { opacity: .8;  transform: scaleY(1); }
+  18%      { opacity: 1;   transform: scaleY(1.05); }
+  33%      { opacity: .7;  transform: scaleY(.97); }
+  52%      { opacity: .95; transform: scaleY(1.03); }
+  71%      { opacity: .75; transform: scaleY(.99); }
+  86%      { opacity: .9;  transform: scaleY(1.04); }
+}
+@keyframes flicker-b {
+  0%, 100% { opacity: .5; transform: translateX(0) scale(1); }
+  25%      { opacity: .9; transform: translateX(2%) scale(1.06); }
+  50%      { opacity: .4; transform: translateX(-1%) scale(.96); }
+  75%      { opacity: .8; transform: translateX(1%) scale(1.03); }
 }
 
 img { max-width: 100%; }
@@ -92,6 +142,7 @@ img { max-width: 100%; }
 
 .page {
   position: relative;
+  z-index: 1;
   max-width: 1120px;
   margin: 0 auto;
   padding: 2.25rem 1.1rem 3rem;
@@ -125,15 +176,40 @@ img { max-width: 100%; }
 
 .masthead {
   text-align: center;
-  padding: 1rem .5rem 0;
+  /* clear the swag: its height is 1/8 of its width */
+  padding: calc((min(100vw, 1120px) - 2 * var(--swag-inset)) / 8 - .25rem) .5rem 0;
 }
 
-.masthead-holly {
-  display: block;
-  width: 4rem;
-  height: 2.5rem;
-  margin: 0 auto .25rem;
-  color: #2f6b45;
+/* ---------- Holly swag ---------- */
+
+.swag {
+  position: absolute;
+  top: .45rem;
+  left: var(--swag-inset);
+  right: var(--swag-inset);
+  width: calc(100% - 2 * var(--swag-inset));
+  height: auto;
+  overflow: visible;
+  pointer-events: none;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, .45));
+}
+.swag-loop {
+  transform-box: fill-box;
+  transform-origin: 50% 0;
+  animation: swag-breathe 7s ease-in-out infinite;
+}
+.swag-bow-inner {
+  transform-box: fill-box;
+  transform-origin: 50% 12%;
+  animation: bow-sway 5.5s ease-in-out infinite;
+}
+@keyframes swag-breathe {
+  0%, 100% { transform: scaleY(1); }
+  50%      { transform: scaleY(1.05) skewX(.6deg); }
+}
+@keyframes bow-sway {
+  0%, 100% { transform: rotate(-3deg); }
+  50%      { transform: rotate(3deg); }
 }
 
 .kicker {
@@ -276,6 +352,7 @@ h1 span {
   .page { padding: 2.75rem 2rem 3.5rem; }
   .doors { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.1rem; }
   .frame-corner { width: 4.5rem; height: 4.5rem; }
+  :root { --swag-inset: 4rem; }
 }
 
 @media (min-width: 960px) {
