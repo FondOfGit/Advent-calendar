@@ -104,6 +104,8 @@ One-time setup: in the repository on GitHub, go to **Settings → Pages → Buil
 
 All paths in the site are relative, so it works under the `/<repo>/` subpath without changes. If you add a new top-level folder that the site needs, add it to the `cp` line in the workflow.
 
+The one exception is the link-preview tags in `index.html` (`og:*`, `twitter:card`, `canonical`). Scrapers require absolute URLs there, so they point at `https://fondofgit.github.io/Advent-calendar/`. Update them if the site moves to another address or a custom domain. The preview image is `images/social-preview.jpg` (1200×630). It's a screenshot of a composition built from the site's own CSS, wallpaper, swag and card art, so regenerate it if the look changes significantly.
+
 ## Conventions
 
 - Keep it dependency-free. Do not add a bundler, framework or npm packages.
