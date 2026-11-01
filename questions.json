@@ -2,360 +2,358 @@
   "questions": [
     {
       "day": 1,
-      "question": "The first commercial Christmas card went on sale in London in 1843. Who commissioned it?",
+      "question": "The first Christmas card sold in Britain, in 1843, caused a small scandal. Why?",
       "options": [
-        "Prince Albert",
-        "Sir Henry Cole",
-        "Charles Dickens",
-        "Louis Prang"
+        "It poked fun at Queen Victoria",
+        "It was printed entirely in German",
+        "It showed a family, child included, raising glasses of wine",
+        "It cost a week’s wages"
       ],
-      "answer": 1,
-      "explanation": "Henry Cole was a civil servant, a Penny Post reformer and later the founding director of what became the V&A. Too busy to write his usual Christmas letters, he commissioned the artist John Callcott Horsley to design a card. About a thousand were printed and sold at a shilling each. The centre panel showed a family raising glasses of wine, a small child among them, which drew complaints from temperance campaigners. Louis Prang, the German-born Boston lithographer, popularised the card in America in the 1870s.",
+      "answer": 2,
+      "explanation": "The civil servant Henry Cole was too busy to write his usual Christmas letters, so he asked the artist John Callcott Horsley to design a card. About a thousand were printed and sold at a shilling each. The centre panel showed a merry family toasting the season, a small child included, and the temperance movement was not amused. Cole later became the founding director of what is now the V&A.",
       "image": null,
       "imageAlt": "",
       "imageCredit": ""
     },
     {
       "day": 2,
-      "question": "In 1897 eight-year-old Virginia O’Hanlon wrote to ask whether Santa Claus was real. Which newspaper printed the reply, “Yes, Virginia, there is a Santa Claus”?",
+      "question": "In 1897 eight-year-old Virginia O’Hanlon wrote to a New York newspaper with a question. The famous reply began “Yes, Virginia, there is a…”",
       "options": [
-        "The New York Times",
-        "The Sun",
-        "The New York Herald",
-        "The World"
+        "North Pole",
+        "Santa Claus",
+        "Christmas miracle",
+        "Tooth Fairy"
       ],
       "answer": 1,
-      "explanation": "The editorial ran unsigned in the New York Sun on 21 September 1897, so not at Christmas at all. Its author, the former Civil War correspondent Francis Pharcellus Church, was named only after his death in 1906. It went on to become the most reprinted editorial in the history of English-language newspapers.",
+      "explanation": "Her friends had told her Santa wasn’t real, and her father said, “If you see it in The Sun, it’s so.” The New York Sun answered her in an unsigned editorial on 21 September 1897, so not at Christmas at all. The writer, Francis Pharcellus Church, was named only after his death. It became the most reprinted editorial in the history of English-language newspapers.",
       "image": null,
       "imageAlt": "",
       "imageCredit": ""
     },
     {
       "day": 3,
-      "question": "Long before Prince Albert, which German-born queen set up one of the first documented Christmas trees in England, at Windsor in 1800?",
+      "question": "In 1848 a magazine picture of a royal family gathered round a decorated tree made the Christmas tree a must-have in Britain. Which royal couple was it?",
       "options": [
-        "Queen Charlotte",
-        "Queen Adelaide",
-        "Caroline of Brunswick",
-        "Queen Victoria"
+        "King George III and Queen Charlotte",
+        "King Edward VII and Queen Alexandra",
+        "King William IV and Queen Adelaide",
+        "Queen Victoria and Prince Albert"
       ],
-      "answer": 0,
-      "explanation": "Charlotte of Mecklenburg-Strelitz, wife of George III, decorated a yew tree for a children’s party at Queen’s Lodge, Windsor. For decades the custom stayed largely aristocratic. That changed in 1848, when the Illustrated London News printed an engraving of Victoria, Albert and their children around a tabletop tree. In 1850 the American magazine Godey’s Lady’s Book reprinted the image with the royal regalia and Albert’s moustache removed, turning the family into a respectable American household.",
+      "answer": 3,
+      "explanation": "The Illustrated London News showed Victoria, Albert and their children around a tabletop tree at Windsor, and soon every fashionable household wanted one. Albert usually gets the credit for bringing the custom from Germany, but George III’s German-born wife, Queen Charlotte, had set one up at Windsor as early as 1800. When an American magazine reprinted the picture in 1850, it quietly removed the Queen’s tiara and Albert’s moustache so the family would pass for Americans.",
       "image": null,
       "imageAlt": "",
       "imageCredit": ""
     },
     {
       "day": 4,
-      "question": "The Christmas cracker grew out of a sugared-almond bon-bon wrapped in a twist of paper. Which London confectioner developed it?",
+      "question": "The Christmas cracker was invented in the 1840s by a London sweet-maker. What was wrapped inside the very first ones?",
       "options": [
-        "Tom Smith",
-        "John Cadbury",
-        "Joseph Fry",
-        "James Keiller"
+        "A sugared almond",
+        "A paper crown",
+        "A silver sixpence",
+        "A terrible joke"
       ],
       "answer": 0,
-      "explanation": "Tom Smith, inspired by French bon-bons, began selling paper-wrapped sweets with love mottoes tucked inside around 1847. The crack, a chemically treated strip of card that snaps when pulled, came later and was reputedly inspired by the crackle of a log fire. His sons eventually dropped the sweet altogether in favour of paper hats, trinkets and the dreadful jokes.",
+      "explanation": "Tom Smith sold sugared almonds wrapped in a twist of paper with a love motto tucked inside, an idea he picked up from French bon-bons. The bang came later, reputedly inspired by the crackle of a log fire. Eventually the sweet was dropped altogether in favour of paper hats, small trinkets and, yes, the terrible jokes.",
       "image": null,
       "imageAlt": "",
       "imageCredit": ""
     },
     {
       "day": 5,
-      "question": "In 1647 England formally abolished Christmas as a feast day. Who was responsible?",
+      "question": "In 1647 England’s Puritan-led Parliament did something drastic to Christmas. What?",
       "options": [
-        "Oliver Cromwell, as Lord Protector",
-        "The Long Parliament",
-        "Archbishop William Laud",
-        "King Charles I"
+        "Moved it to January",
+        "Made it a two-week holiday",
+        "Banned it",
+        "Made mince pies compulsory"
       ],
-      "answer": 1,
-      "explanation": "In June 1647 the Puritan-dominated Long Parliament abolished Christmas, Easter and Whitsun as feasts, which set off pro-Christmas riots in Canterbury and elsewhere that December. Cromwell usually takes the blame, but he did not become Lord Protector until 1653. Laud had been executed in 1645. Christmas came back legally with the Restoration in 1660.",
+      "answer": 2,
+      "explanation": "Parliament abolished Christmas, Easter and Whitsun as feast days, and that December there were pro-Christmas riots in Canterbury and elsewhere. Oliver Cromwell usually takes the blame, though he did not become Lord Protector until 1653. Christmas came back legally with the return of the monarchy in 1660.",
       "image": null,
       "imageAlt": "",
       "imageCredit": ""
     },
     {
       "day": 6,
-      "question": "“Stille Nacht” was first performed on Christmas Eve 1818 in Oberndorf, near Salzburg. What instrument accompanied it?",
+      "question": "“Silent Night” was first sung on Christmas Eve 1818. In which country?",
       "options": [
-        "Pipe organ",
-        "Guitar",
-        "Zither",
-        "Violin"
+        "England",
+        "France",
+        "United States",
+        "Austria"
       ],
-      "answer": 1,
-      "explanation": "The assistant priest Joseph Mohr wrote the words, and the schoolteacher and organist Franz Xaver Gruber set them for two solo voices, choir and guitar. The two men performed it together at St Nicholas Church. The familiar story that mice had chewed through the organ bellows is a later embellishment with no contemporary evidence behind it.",
+      "answer": 3,
+      "explanation": "It was first sung as “Stille Nacht” in the village church of Oberndorf, near Salzburg. The young priest Joseph Mohr wrote the words, and the schoolteacher Franz Xaver Gruber wrote the tune. The two performed it with a guitar. The popular story that mice had chewed through the organ is a later embellishment.",
       "image": null,
       "imageAlt": "",
       "imageCredit": ""
     },
     {
       "day": 7,
-      "question": "In the first printing of “A Visit from St. Nicholas” in 1823, the last two reindeer were not called Donner and Blitzen. What were they called?",
+      "question": "In the first printing of “’Twas the Night Before Christmas”, in 1823, two of the reindeer were called Dunder and Blixem. What do those old Dutch-style names mean?",
       "options": [
-        "Dunder and Blixem",
-        "Thunder and Lightning",
-        "Donder and Blitzen",
-        "Dasher and Dancer"
+        "Snow and ice",
+        "Thunder and lightning",
+        "Moon and stars",
+        "Fast and faster"
       ],
-      "answer": 0,
-      "explanation": "The poem appeared anonymously in the Troy Sentinel on 23 December 1823 with “Dunder and Blixem”, Dutch-flavoured words for thunder and lightning. Clement Clarke Moore changed them to “Donder and Blitzen” when he put the poem in his collected Poems of 1844, and “Donner” came later still. Descendants of Henry Livingston Jr. have long argued that he, not Moore, was the real author.",
+      "answer": 1,
+      "explanation": "The poem, properly titled “A Visit from St. Nicholas”, appeared anonymously in a New York newspaper on 23 December 1823. The names were later changed to Donder and Blitzen, and eventually Donner, which are the German words for thunder and lightning. Clement Clarke Moore claimed the poem years later, though some historians believe Henry Livingston Jr. wrote it.",
       "image": null,
       "imageAlt": "",
       "imageCredit": ""
     },
     {
       "day": 8,
-      "question": "Thomas Nast’s first Santa Claus for Harper’s Weekly, dated January 1863, shows Santa doing what?",
+      "question": "In the 1860s the cartoonist Thomas Nast drew Santa for Harper’s Weekly and gave him a permanent home. Where?",
       "options": [
-        "Handing out gifts to Union soldiers",
-        "Climbing down a Manhattan chimney",
-        "Driving his sleigh over the Capitol",
-        "Checking a ledger of good children"
+        "The North Pole",
+        "Lapland",
+        "Greenland",
+        "Iceland"
       ],
       "answer": 0,
-      "explanation": "“Santa Claus in Camp” ran on the cover of the 3 January 1863 issue. It shows Santa in a stars-and-stripes jacket giving out presents to Union troops, while one gift is a puppet of Jefferson Davis with a rope around its neck. Nast went on to draw Santa for Harper’s for more than twenty years, and those drawings settled the North Pole workshop and the naughty-or-nice ledger in American minds.",
+      "explanation": "Before Nast, nobody was quite sure where Santa lived. Nast also gave us Santa’s workshop and his book of good and naughty children. His very first Santa, in January 1863, showed him in a stars-and-stripes jacket handing out presents to Union soldiers in the Civil War.",
       "image": null,
       "imageAlt": "",
       "imageCredit": ""
     },
     {
       "day": 9,
-      "question": "In “The Twelve Days of Christmas”, the verses are cumulative: each day the true love sends that day’s gift and repeats every earlier one. How many gifts arrive in total?",
+      "question": "In “The Twelve Days of Christmas”, what does my true love send on the fifth day?",
       "options": [
-        "78",
-        "144",
-        "300",
-        "364"
+        "Five calling birds",
+        "Five golden geese",
+        "Five gold rings",
+        "Five silver bells"
       ],
-      "answer": 3,
-      "explanation": "Day one brings 1 gift, day two brings 3 and day three brings 6. The daily totals are the triangular numbers, and over twelve days they add up to 364, one for every day of the year bar one. The swans and the geese arrive most often, at 42 apiece.",
+      "answer": 2,
+      "explanation": "Singers traditionally stretch out “five go-old rings” for a reason: it is the turning point of the song. If you add up every gift across all twelve days, counting the repeats, the total is 364, one for every day of the year bar one.",
       "image": null,
       "imageAlt": "",
       "imageCredit": ""
     },
     {
       "day": 10,
-      "question": "In A Christmas Carol, what does the Ghost of Christmas Present show the Cratchits eating for Christmas dinner?",
+      "question": "In A Christmas Carol, what bird do the Cratchits have for Christmas dinner?",
       "options": [
-        "A goose",
         "A turkey",
-        "A joint of roast beef",
-        "A capon"
+        "A goose",
+        "A pheasant",
+        "A duck"
       ],
-      "answer": 0,
-      "explanation": "Mrs Cratchit’s goose is a modest bird stretched across a large family with apple sauce and mashed potatoes. Once reformed, Scrooge sends them the prize turkey from the poulterer’s, “twice the size of Tiny Tim”. For most of the Victorian era goose was the usual celebration bird. Turkey became the standard English Christmas dinner only in the twentieth century.",
+      "answer": 1,
+      "explanation": "Mrs Cratchit’s goose is a modest bird stretched across a large family, with apple sauce and mashed potatoes. Once Scrooge has changed his ways, he sends them the prize turkey from the poulterer’s, “twice the size of Tiny Tim”. In Victorian times goose was the usual celebration bird; turkey only became the standard English Christmas dinner in the twentieth century.",
       "image": null,
       "imageAlt": "",
       "imageCredit": ""
     },
     {
       "day": 11,
-      "question": "Tinsel was first made in Nuremberg in the early 1600s. What was it made from?",
+      "question": "Tinsel was first made in Germany in the early 1600s. What was it made from?",
       "options": [
-        "Shredded silver",
-        "Tin foil",
-        "Spun glass",
-        "Gold leaf"
+        "Plastic",
+        "Spun sugar",
+        "Painted paper",
+        "Real silver"
       ],
-      "answer": 0,
-      "explanation": "Real silver was hammered thin and cut into strips. It glittered beautifully but tarnished quickly by candlelight. Cheaper alloys followed, then lead foil, which the United States phased out in the 1970s over safety concerns, then aluminium and today’s PVC. The word comes from the Old French estincele, meaning “spark”.",
+      "answer": 3,
+      "explanation": "Silver was hammered thin and cut into strips. It looked splendid by candlelight, but it soon tarnished. Cheaper metals followed, then aluminium, and finally the plastic tinsel we know today. The word comes from an Old French word meaning “spark”.",
       "image": null,
       "imageAlt": "",
       "imageCredit": ""
     },
     {
       "day": 12,
-      "question": "The poinsettia is named after Joel Roberts Poinsett, who sent cuttings home to South Carolina in the 1820s. What was he doing in Mexico?",
+      "question": "The poinsettia, the red-leaved Christmas plant, originally comes from which country?",
       "options": [
-        "Collecting plants for Kew Gardens",
-        "Serving as the first US Minister to Mexico",
-        "Surveying the Texas border for the Army",
-        "Managing a silver mine"
+        "Norway",
+        "Scotland",
+        "Mexico",
+        "China"
       ],
-      "answer": 1,
-      "explanation": "Poinsett was an amateur botanist as well as a diplomat, and he later served as Secretary of War under Martin Van Buren. The Aztecs called the plant cuetlaxochitl and used its bracts for red dye. In the United States, 12 December is National Poinsettia Day, marking the anniversary of his death in 1851.",
+      "answer": 2,
+      "explanation": "The Aztecs called it cuetlaxochitl and used it to make red dye. Its English name honours Joel Roberts Poinsett, the first American ambassador to Mexico, who sent cuttings home to South Carolina in the 1820s. In the United States, 12 December is National Poinsettia Day, marking the date of his death.",
       "image": null,
       "imageAlt": "",
       "imageCredit": ""
     },
     {
       "day": 13,
-      "question": "In December 1882 a New York parlour displayed the first electrically lit Christmas tree. Whose was it?",
+      "question": "The first electric Christmas tree lights were strung up in 1882 by a business partner of which famous inventor?",
       "options": [
         "Thomas Edison",
-        "Edward H. Johnson",
-        "Nikola Tesla",
-        "George Westinghouse"
+        "Alexander Graham Bell",
+        "Henry Ford",
+        "The Wright brothers"
       ],
-      "answer": 1,
-      "explanation": "Edward Hibberd Johnson, Edison’s partner and vice-president of the Edison Electric Light Company, hand-wired 80 red, white and blue bulbs onto a tree that slowly revolved. A Detroit newspaper reported it. Electric tree lights stayed a rich man’s novelty for years, and candles, with all their fire risk, remained common for decades.",
+      "answer": 0,
+      "explanation": "Edward H. Johnson, Edison’s partner, hand-wired 80 red, white and blue bulbs onto a slowly revolving tree in his New York parlour. For years electric lights were a rich family’s novelty, and most people kept using real candles on their trees, fire buckets at the ready.",
       "image": null,
       "imageAlt": "",
       "imageCredit": ""
     },
     {
       "day": 14,
-      "question": "“Jingle Bells” was first published in 1857 under what title?",
+      "question": "In December 1965 two astronauts surprised Mission Control by playing “Jingle Bells” on a smuggled harmonica and bells. Where were they?",
       "options": [
-        "“The One Horse Open Sleigh”",
-        "“Sleigh Ride”",
-        "“The Merry Sleigh Bells”",
-        "“Dashing Through the Snow”"
+        "Walking on the Moon",
+        "Waiting on the launch pad",
+        "On the ship that picked them up",
+        "Orbiting Earth in Gemini 6"
       ],
-      "answer": 0,
-      "explanation": "James Lord Pierpont published it in Boston in 1857. The lyrics never mention Christmas; it is a winter sleighing song. Medford, Massachusetts, and Savannah, Georgia, both claim it. In December 1965 it became the first song played in space, when the Gemini 6 astronauts Wally Schirra and Tom Stafford performed it on a smuggled harmonica and a handful of bells.",
+      "answer": 3,
+      "explanation": "Wally Schirra and Tom Stafford first reported sighting a mysterious “satellite” piloted by a man in a red suit, then broke into “Jingle Bells”, making it the first song played in space. The song itself dates from 1857, when it was published as “The One Horse Open Sleigh”. It never actually mentions Christmas.",
       "image": null,
       "imageAlt": "",
       "imageCredit": ""
     },
     {
       "day": 15,
-      "question": "“Good King Wenceslas looked out, on the Feast of Stephen.” On what date is that feast?",
+      "question": "“Good King Wenceslas looked out, on the Feast of Stephen.” What is that day better known as in Britain?",
       "options": [
-        "6 December",
-        "24 December",
-        "26 December",
-        "6 January"
+        "Christmas Eve",
+        "Boxing Day",
+        "New Year’s Day",
+        "Twelfth Night"
       ],
-      "answer": 2,
-      "explanation": "The Feast of St Stephen, the first Christian martyr, falls on 26 December, Boxing Day. John Mason Neale wrote the words in 1853 and set them to “Tempus adest floridum”, a spring carol from the 1582 Finnish collection Piae Cantiones. The real Wenceslas was a tenth-century Duke of Bohemia; he was given the title of king only after his death.",
+      "answer": 1,
+      "explanation": "The Feast of St Stephen falls on 26 December. In the carol the king spots a poor man gathering firewood and sets out through the snow to bring him food and drink, which suits a day long associated with giving to those in need. The real Wenceslas was a tenth-century Duke of Bohemia; the title of king came only after his death. The words were written by John Mason Neale in 1853.",
       "image": null,
       "imageAlt": "",
       "imageCredit": ""
     },
     {
       "day": 16,
-      "question": "What did the old greeting “wassail” originally mean?",
+      "question": "When Victorians went “wassailing”, what were they doing?",
       "options": [
-        "Be in good health",
-        "Hot spiced ale",
-        "Open your door",
-        "Bless this orchard"
+        "Skating on a frozen pond",
+        "Decorating the parish church",
+        "Going door to door singing and drinking toasts",
+        "Hunting for the Christmas goose"
       ],
-      "answer": 0,
-      "explanation": "It comes from Old English wes hal and Old Norse ves heill, literally “be whole”, and the proper reply was “drinkhail”. Over time the word came to mean the drink itself (hot ale or cider with spices, sugar and roasted apples), carolling door to door with a bowl, and, in cider country, a Twelfth Night ritual of toasting the apple trees for a good harvest.",
+      "answer": 2,
+      "explanation": "“Wassail” comes from the Old English for “be in good health”. Wassailers carried a bowl of hot spiced ale or cider from house to house, sang, and expected a drink or a coin in return, as in “Here we come a-wassailing”. In cider country people also wassailed the apple trees, toasting them for a good harvest.",
       "image": null,
       "imageAlt": "",
       "imageCredit": ""
     },
     {
       "day": 17,
-      "question": "The Roman festival of Saturnalia, with its feasting, gift-giving and topsy-turvy role reversals, began on which date?",
+      "question": "Saturnalia, a December festival of feasting, parties and gift-giving, began on 17 December. Who celebrated it?",
       "options": [
-        "17 December",
-        "21 December",
-        "25 December",
-        "1 January"
+        "The ancient Romans",
+        "The ancient Egyptians",
+        "The Vikings",
+        "The Aztecs"
       ],
       "answer": 0,
-      "explanation": "Saturnalia opened on 17 December, today’s door, and by the late Republic it had stretched to a week. Togas gave way to casual dining clothes and the felt cap of freed slaves, gambling was allowed in public, and people exchanged small gifts such as wax candles and the clay figurines called sigillaria. Catullus called it “the best of days”.",
+      "explanation": "Saturnalia began on this very day and eventually stretched to a week. Togas were swapped for party clothes, gambling was allowed in public, masters sometimes waited on their servants, and friends gave each other small gifts such as candles and little clay figures. The poet Catullus called it “the best of days”.",
       "image": null,
       "imageAlt": "",
       "imageCredit": ""
     },
     {
       "day": 18,
-      "question": "Tchaikovsky’s The Nutcracker premiered in December 1892. Where?",
+      "question": "The Nutcracker ballet premiered in St Petersburg on 18 December 1892. Who composed the music?",
       "options": [
-        "The Bolshoi Theatre, Moscow",
-        "The Mariinsky Theatre, St Petersburg",
-        "The Paris Opéra",
-        "The Vienna Court Opera"
+        "Mozart",
+        "Beethoven",
+        "Johann Strauss",
+        "Tchaikovsky"
       ],
-      "answer": 1,
-      "explanation": "It opened at the Mariinsky on 18 December 1892 (6 December in the Russian calendar of the day), on a double bill with his opera Iolanta, and the reception was lukewarm. For the Sugar Plum Fairy, Tchaikovsky used the celesta, an instrument he had come across in Paris, and asked his publisher to keep it quiet so that rival composers could not use it first. Its place as a Christmas fixture is largely an American, post-war development.",
+      "answer": 3,
+      "explanation": "Tchaikovsky’s ballet got a lukewarm reception at first. For the Dance of the Sugar Plum Fairy he used the celesta, a tinkling keyboard instrument he had found in Paris, and asked his publisher to keep it secret so that no rival composer would use it first. The ballet became a Christmas tradition mostly in America after the Second World War.",
       "image": null,
       "imageAlt": "",
       "imageCredit": ""
     },
     {
       "day": 19,
-      "question": "A Christmas Carol was first published on 19 December, today’s date. In which year?",
+      "question": "A Christmas Carol was published on this day in 1843. What is Scrooge’s first name?",
       "options": [
-        "1836",
-        "1843",
-        "1850",
-        "1859"
+        "Jacob",
+        "Ebenezer",
+        "Bob",
+        "Fred"
       ],
       "answer": 1,
-      "explanation": "Chapman & Hall issued it on 19 December 1843, but Dickens paid the costs himself and insisted on a lavish edition, with gilt edges and hand-coloured plates by John Leech, priced at five shillings. The first 6,000 copies sold out by Christmas Eve, yet the expense left him with a disappointing profit of about £230.",
+      "explanation": "Jacob is Marley, Bob is Cratchit and Fred is Scrooge’s cheerful nephew. Dickens paid to have the book printed with gilt edges and hand-coloured illustrations. All 6,000 copies of the first edition sold out by Christmas Eve, but the costs were so high that he made only about £230.",
       "image": null,
       "imageAlt": "",
       "imageCredit": ""
     },
     {
       "day": 20,
-      "question": "Dickens divided A Christmas Carol into five parts. What did he call them?",
+      "question": "How many ghosts visit Scrooge in A Christmas Carol, counting Jacob Marley?",
       "options": [
-        "Cantos",
-        "Staves",
-        "Movements",
-        "Verses"
+        "Three",
+        "Five",
+        "Four",
+        "Seven"
       ],
-      "answer": 1,
-      "explanation": "Keeping up the idea of a carol, each chapter is a “stave”, an old word for a verse or stanza of a song. He carried the joke into his later Christmas books: The Chimes is divided into “quarters” and The Cricket on the Hearth into “chirps”.",
+      "answer": 2,
+      "explanation": "Marley comes first, in chains, to warn Scrooge that three spirits will follow: the Ghosts of Christmas Past, Present and Yet to Come. In keeping with the idea of a carol, Dickens called the book’s five chapters “staves”, an old word for the verses of a song.",
       "image": null,
       "imageAlt": "",
       "imageCredit": ""
     },
     {
       "day": 21,
-      "question": "In Norse myth, a dart of mistletoe kills which god? It was the one thing his mother never asked to swear not to harm him.",
+      "question": "Victorian etiquette had a rule for kissing under the mistletoe. What was it?",
       "options": [
-        "Baldr",
-        "Thor",
-        "Freyr",
-        "Týr"
+        "Pick one berry for each kiss, and stop when the berries run out",
+        "Only engaged couples may kiss",
+        "The kiss must be on the hand",
+        "The gentleman must first bow three times"
       ],
       "answer": 0,
-      "explanation": "Frigg made fire, water, metals, stones, beasts and plants all swear never to harm her son Baldr, but she passed over the mistletoe as too young. Loki made a dart from it and guided the throw of the blind god Höðr. Kissing under the mistletoe is much later: it is first recorded in England in the eighteenth century, and by custom a berry was picked for each kiss until none were left.",
+      "explanation": "Once the berries were gone, the mistletoe lost its power. The plant’s Christmas reputation is ancient: in Norse myth the god Baldr was killed by a dart of mistletoe, the one thing his mother had forgotten to make promise never to harm him.",
       "image": null,
       "imageAlt": "",
       "imageCredit": ""
     },
     {
       "day": 22,
-      "question": "Haddon Sundblom’s Coca-Cola advertisements, from 1931, are often credited with giving Santa his red suit. Is that so?",
+      "question": "True or false: Coca-Cola advertisements from 1931 gave Santa his red suit.",
       "options": [
-        "Yes. Santa wore green until 1931.",
-        "No. Red-suited Santas were common decades earlier.",
-        "Yes. The red was chosen to match the brand.",
-        "No. The red suit came from 1950s department stores."
+        "True. Santa wore green until 1931.",
+        "False. Red-suited Santas had been around for decades."
       ],
       "answer": 1,
-      "explanation": "Santa wears red on Puck magazine covers from the early 1900s and on a great many Victorian and Edwardian cards. Other cards show him in green, brown or blue, and that is where the myth gets its foothold. What Sundblom did fix was the warm, rotund, grandfatherly face, modelled at first on a retired salesman friend and later on himself.",
+      "explanation": "Santa wears red on magazine covers from the early 1900s and on a great many Victorian and Edwardian Christmas cards. Some older cards show him in green, brown or blue, which is how the myth took hold. What the Coca-Cola artist Haddon Sundblom did fix was the warm, chubby, grandfatherly face we picture today.",
       "image": null,
       "imageAlt": "",
       "imageCredit": ""
     },
     {
       "day": 23,
-      "question": "Every year since 1947 the Christmas tree in Trafalgar Square has been a gift from which city?",
+      "question": "Every year since 1947 Norway has given London the Christmas tree in Trafalgar Square. Why?",
       "options": [
-        "Copenhagen",
-        "Oslo",
-        "Stockholm",
-        "Bergen"
+        "To repay an old debt",
+        "As thanks for Britain’s help in the Second World War",
+        "As a royal wedding present",
+        "To settle a fishing dispute"
       ],
       "answer": 1,
-      "explanation": "Oslo sends a Norway spruce from the forests around the city each year. It is a thank-you for Britain’s support during the Second World War, when King Haakon VII and the Norwegian government in exile were based in London. The tree is dressed in the Norwegian manner, with vertical strings of plain white lights. Bergen sends a tree of its own each year to Newcastle upon Tyne.",
+      "explanation": "During the war Norway’s king and government carried on the fight from exile in London. The tree, a Norway spruce from the forests around Oslo, is decorated in the Norwegian style, with simple strings of white lights running straight down.",
       "image": null,
       "imageAlt": "",
       "imageCredit": ""
     },
     {
       "day": 24,
-      "question": "On Christmas Eve 1906, Reginald Fessenden is said to have made one of the first radio broadcasts of voice and music, from Brant Rock, Massachusetts. What did he play on the violin?",
+      "question": "On Christmas Eve 1906 the inventor Reginald Fessenden is said to have broadcast one of the first radio programmes of music, to ships at sea. Which carol did he play on the violin?",
       "options": [
-        "“Silent Night”",
+        "“Jingle Bells”",
+        "“Rudolph the Red-Nosed Reindeer”",
         "“O Holy Night”",
-        "“Adeste Fideles”",
-        "“The First Nowell”"
+        "“White Christmas”"
       ],
-      "answer": 1,
-      "explanation": "By Fessenden’s own later account, he played Adolphe Adam’s “O Holy Night” on the violin, sang the last verse and read from the Gospel of Luke, “Glory to God in the highest, and on earth peace, good will toward men”, for ships’ wireless operators at sea. No contemporary record survives, so historians treat the story with caution, but it makes a fitting close to the calendar. A merry Christmas to you.",
+      "answer": 2,
+      "explanation": "Radio operators who had only ever heard Morse code suddenly heard a violin. By Fessenden’s own later account he played “O Holy Night”, sang the last verse, and read “Glory to God in the highest, and on earth peace, good will toward men.” Historians aren’t certain it happened just as he told it, but it makes a fine end to the calendar. Rudolph arrived in 1939 and White Christmas in 1942. A merry Christmas to you.",
       "image": null,
       "imageAlt": "",
       "imageCredit": ""
